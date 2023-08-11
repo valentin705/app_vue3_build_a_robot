@@ -9,7 +9,7 @@
         <div>{{torso.description}}</div>
       </div>
     </div>
-  </template>
+</template>
 
 <script>
 import getPartsMixin from './get-part-mixin';
