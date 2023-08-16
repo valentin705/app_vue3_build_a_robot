@@ -1,32 +1,35 @@
 # app_vue3_build_a_robot
 Ce projet a été réalisé lors d'une formation sur Vue.js, dans le but de comprendre et de maîtriser les fondamentaux du framework. Le projet explore les concepts clés de Vue, tels que les composants, les directives, la gestion d'état, etc.
 
-Pour le bon fonctionnement de ce projet, il vous faudra également cloner le dépôt [build-a-bot-server](https://github.com/jmcooper/build-a-bot-server) qui appartient à `jmcooper` afin de pouvoir profiter du serveur API. 
-Et effectuer la commande suivante 
+# Pré-requis
+Avant de démarrer le projet, assurez-vous de :
+
+1. Cloner le dépôt build-a-bot-server de jmcooper pour profiter du serveur API.
+2. Une fois cloné, naviguez vers le dossier build-a-bot-server et exécutez la commande suivante pour démarrer le serveur en local :
 ```
 npm start
 ```
-Afin de lancer le server en local.
 
-## Project setup
+## Configuration du projet
+Pour installer les dépendances nécessaires :
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### Compilation avec rechargement à chaud pour le développement
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
+### Compilation et minification pour la production
 ```
 npm run build
 ```
 
-### Lints and fixes files
+### Lint et correction des fichiers
 ```
 npm run lint
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Personnalisation de la configuration
+Voir [Configuration Reference](https://cli.vuejs.org/config/).
